@@ -1,0 +1,38 @@
+# Node
+node_modules/
+
+# Environment
+.env
+
+# Python
+venv/
+.venv/
+ENV/
+env/
+*.py[cod]
+__pycache__/
+.pytest_cache/
+
+# Django
+db.sqlite3
+media/
+
+# Build / output
+dist/
+build/
+/.parcel-cache/
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+
+# Locks
+package-lock.json
+yarn.lock
+
+# Misc
+coverage/
+coverage.*
+.coverage
+
