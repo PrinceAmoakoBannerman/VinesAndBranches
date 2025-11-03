@@ -1,3 +1,10 @@
 [build]
   command = "npm ci && npm run build"
+  publish = "build"
+
+# Optional: set environment for production builds here
+[context.production.environment]
+# NODE_ENV = "production"
+[build]
+  command = "npm ci && npm run build"
   publish = "dist"
