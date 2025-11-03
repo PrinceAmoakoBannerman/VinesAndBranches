@@ -57,6 +57,7 @@ export function Hero() {
           muted
           loop
           playsInline
+          preload="auto"
           className="h-full w-full object-cover"
           // keep video positioned and covering the hero
           style={{ display: 'block' }}
